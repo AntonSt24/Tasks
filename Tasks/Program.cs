@@ -1,11 +1,3 @@
 ﻿//Exam
 //Test
-//Тест 2
-
-internal class Program
-{
-    private static void Main(string[] args)
-    {
-        Console.WriteLine("Hello");
-    }
-}
+//Test 2
