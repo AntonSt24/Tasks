@@ -111,3 +111,5 @@
 //2 ot 3 zada4i sum re6il
 
 //Ostava vineyard imam predstava kakvo da napravq
+
+//reshih ti treta, v messenger e
