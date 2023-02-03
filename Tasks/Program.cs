@@ -105,3 +105,9 @@
 //7
 
 // NA Sufficient strong key sum, dobre vurvi, edna zada4a e re6ena
+
+
+
+//2 ot 3 zada4i sum re6il
+
+//Ostava vineyard imam predstava kakvo da napravq
