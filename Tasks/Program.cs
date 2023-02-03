@@ -63,3 +63,43 @@
 //xXx=Xx
 //Output
 //No! 2 more bottles of wine and 0 more bottles of rakia required!
+
+//----------------------------------------------------------------------
+
+//using System.ComponentModel;
+
+//Sufficiently Strong Key
+//Finally! You achieved your dream to become a programmer and now you are battling with your first real task. Your web application will open up to the world so it requires api keys. The task of writing the code to generate them falls to you and you are ready in no time. However, suspicion starts to creep in - is your code producing sufficiently random and strong api keys? For an api key to be considered as strong, it must satisfy the following criteria:
+
+//contain at least 3 lowercase chars (a-z)
+//contain at least 3 uppercase chars (A-Z)
+//contain at least 3 digits (0-9)
+//contain at least 3 special chars (!@#$%^&*()_+-=><?)
+//must be at least 15 chars long
+//You quickly write some code to test your other code and some of the generated api keys are found not up to standard. Logically, you come up with the brilliant idea to write code that will fix existing api keys, but to that, you need some code that can calculate how many chars need to be appended to existing not-strong-enough keys.
+
+//Examples:
+
+//telerikacademy123 - requires 6 more.
+//abc123ABC!@# - requires 3 more.
+//The api key telerikacademy123 is at least 15 chars long, and contains 3 lower and 3 digits, but is missing 3 uppercase and 3 special. So it needs a minimum of 6 additional chars to become sufficiently strong. abc123ABC!@# contains 3 of each, but is not long enough - so it needs 3 more chars to reach the minimum length of 15.
+
+//Input
+//Exactly one line: (can contain any symbol)
+
+//the api key
+//Output
+//Exactly one line:
+
+//number: how many chars you need to append to make it sufficiently random
+//Sample tests
+//Input
+//telerikacademy123
+//Output
+//6
+//3 uppercase and 3 special chars missing
+
+//Input
+//ASas12!@
+//Output
+//7
