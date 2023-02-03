@@ -103,3 +103,5 @@
 //ASas12!@
 //Output
 //7
+
+// NA Sufficient strong key sum, dobre vurvi, edna zada4a e re6ena
